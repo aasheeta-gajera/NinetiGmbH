@@ -22,23 +22,16 @@ This Flutter app demonstrates a user management system with the following featur
 
 ### Steps
 
-Watch the video below to see the app in action:
-
-<video src="https://user-images.githubusercontent.com/ninetigmbh.mp4" controls width="600"></video>
-
 1. **Clone the repository**
-
-```bash
 
 git clone https://github.com/aasheeta-gajera/NinetiGmbH
 cd NinetiGmbH
 
-
-2 Install dependencies
+2  **Install dependencies**
 
 flutter pub get
 
-3 Run the app:
+3  **Run the app**
 
 flutter run
 
@@ -54,8 +47,8 @@ TodoBloc: Fetches todos and supports pull-to-refresh.
 
 ThemeCubit: Controls light/dark theme toggling.
 
-
 UI
+
 UserListScreen: Displays users with search and infinite scroll. Theme toggle in AppBar.
 
 UserDetailScreen: Shows user details, posts (with add button), and todos (pull-to-refresh).
@@ -77,6 +70,7 @@ lib/
 
 
 Additional Features
+
 Pull-to-refresh on the todos list.
 
 Load more button to paginate posts.
@@ -85,23 +79,4 @@ Light/dark theme switching with smooth toggle.
 
 Responsive and clean UI.
 
-Notes
-This project expects backend or mocked API responses for users, posts, and todos.
-
-Feel free to customize and extend with offline caching, animations, and improved UI.
-
-
-Contact
-For any questions or suggestions, contact:
-
-Your Name
-Email: your.email@example.com
-
-This has everything you posted — commands in bash blocks, architecture explanation, folder structure, features, notes, and contact info.
-
-If you want, I can help generate the **complete polished README.md file** with these fixes applied. Just say so!
-
-
-
-
-
+```bash
